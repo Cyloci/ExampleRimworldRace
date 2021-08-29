@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Test Mod - MyRace</name>
+  <author>Psiloclast</author>
+  <url>https://github.com/Psiloclast/ExampleRimworldRace</url>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>psiloclast.MyRace</packageId>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>
+    V1.0
+    The minimum amount of code required to add a new race to Rimworld.
+  </description>
+</ModMetaData>
